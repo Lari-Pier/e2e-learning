@@ -1,0 +1,27 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "learning WebdriverIO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.ts"
+  },
+  "keywords": [
+    "webdriverio",
+    "typescript",
+    "cucumber",
+    "nodejs"
+  ],
+  "author": "Lara",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^9.4.1"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^9.2.14",
+    "@wdio/cucumber-framework": "^9.3.1",
+    "@wdio/local-runner": "^9.4.1",
+    "@wdio/spec-reporter": "^9.2.14"
+  }
+}
